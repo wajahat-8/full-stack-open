@@ -17,6 +17,8 @@ let notes = [
     content: "Browser can execute only JavaScript",
     important: false
   },
+
+
   {
     id: "3",
     content: "GET and POST are the most important methods of HTTP protocol",
