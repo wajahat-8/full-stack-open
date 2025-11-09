@@ -1,0 +1,27 @@
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#   "username": "root",
+#   "name": "Superuser",
+#   "password": "salainen"
+# }
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2OGM0ZmNiMmYyN2UzMGY1ODQ3MGViNWMiLCJpYXQiOjE3NTc3Nzk4MjZ9.9Lldj1_kzKSZFnoombkgYgxmLH78OhL0k8itZR7QCkA
+
+{
+  "content": "This is a secure note",
+  "important": true
+}
+
+
+
+
+# PUT http://localhost:3001/api/notes/68811cb582d1c6c65badac52
+# 
+
+# {
+#   "content": "yes,Updated: VS Code makes backend testing easy!",
+#   "important": false
+# }
